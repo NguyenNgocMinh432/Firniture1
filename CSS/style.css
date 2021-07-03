@@ -1,0 +1,600 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.border1 {
+  top: 250px;
+  left: 185px;
+  border-radius: 5px;
+  border: 0px;
+  background-color: #bb761b;
+}
+.border {
+  top: 300px;
+  left: 185px;
+  font-size: 60px;
+}
+.border2 {
+  top: 460px;
+  left: 185px;
+  font-size: 20px;
+}
+.border3 {
+  top: 530px;
+  left: 185px;
+  font-size: 15px;
+}
+.title {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.bannerMid {
+  width: 97%;
+}
+.content {
+  top: 2700px;
+  left: 640px;
+}
+.content1 {
+  top: 2900px;
+  left: 470px;
+  font-size: 12px;
+}
+.content2 {
+  top: 3000px;
+  left: 690px;
+  font-size: 11px;
+}
+.grid1 {
+  grid-template-columns: 40% 20% 40%  ;
+  grid-template-rows: 1fr 1fr;
+}
+.ruler {
+  top: 1300px;
+  left: 65px;
+}
+.ruler1 {
+  top: 1300px;
+  left: 850px;
+}
+.container {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #f8f2f2;
+  width: 100%;
+  height: 100%;
+}
+#top_toolbar-img {
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.main-menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.main-menu ul {
+  display: flex;
+  list-style-type: none !important;
+  justify-content: space-between;
+}
+.main-menu ul li {
+  margin-top: 20px;
+  padding: 8px 15px;
+  font-weight: bold;
+}
+.main-menu ul li:hover {
+  color: #9c6a1e;
+}
+.main-menu .main-menu-left {
+  display: flex;
+  margin-top: 20px;
+}
+.main-menu .main-menu-left i {
+  padding: 8px 15px;
+}
+.main-menu .main-menu-left #icon-1 {
+  margin-right: -22px;
+}
+.main-menu .main-menu-left p {
+  padding: 8px 15px;
+}
+.banner #banner-top {
+  width: 100%;
+  height: 100%;
+}
+.banner #btn-banner-1 {
+  height: 30px;
+  width: 100px;
+  color: #fff;
+  position: absolute;
+  font-size: 10px;
+  top: 250px;
+  left: 185px;
+  border-radius: 5px;
+  border: 0px;
+  background-color: #bb761b;
+}
+.banner #text-1 {
+  position: absolute;
+  top: 300px;
+  left: 185px;
+  font-size: 60px;
+}
+.banner #text-2 {
+  position: absolute;
+  top: 460px;
+  left: 185px;
+  font-size: 20px;
+}
+.banner #btn-banner-2 {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  border-radius: 7px;
+  top: 530px;
+  left: 185px;
+  font-size: 15px;
+}
+.banner #btn-banner-2:hover {
+  color: #fff;
+  background-color: #b1663b;
+}
+.card {
+  top: 250px;
+  left: 30px;
+  transition: all 3s;
+}
+.group {
+  position: absolute;
+  width: 15%;
+  top: 20px;
+  left: 250px;
+}
+.top-trending {
+  text-align: center;
+}
+.top-trending #top-trending-title p {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.top-trending .list-items {
+  width: 100%;
+  display: inline-block;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+}
+.top-trending .list-items img {
+  width: 100%;
+  padding: 10px;
+}
+.top-trending #add-card {
+  position: absolute;
+  width: 70%;
+  top: 250px;
+  left: 30px;
+  transition: all 3s;
+  display: none;
+}
+.top-trending #add-card-1 {
+  position: absolute;
+  width: 70%;
+  top: 250px;
+  left: 30px;
+  transition: all 3s;
+  display: none;
+}
+.top-trending #add-card-2 {
+  position: absolute;
+  width: 70%;
+  top: 250px;
+  left: 30px;
+  transition: all 3s;
+  display: none;
+}
+.top-trending #add-card-3 {
+  position: absolute;
+  width: 70%;
+  top: 250px;
+  left: 30px;
+  transition: all 3s;
+  display: none;
+}
+.top-trending #add-card-4 {
+  position: absolute;
+  width: 70%;
+  top: 250px;
+  left: 30px;
+  transition: all 3s;
+  display: none;
+}
+.top-trending .list-group {
+  position: absolute;
+  width: 15%;
+  top: 20px;
+  left: 250px;
+  display: none;
+}
+.top-trending .list-group-1 {
+  position: absolute;
+  width: 15%;
+  top: 20px;
+  left: 250px;
+  display: none;
+}
+.top-trending .list-group-2 {
+  position: absolute;
+  width: 15%;
+  top: 20px;
+  left: 250px;
+  display: none;
+}
+.top-trending .list-group-3 {
+  position: absolute;
+  width: 15%;
+  top: 20px;
+  left: 250px;
+  display: none;
+}
+.top-trending .list-group-4 {
+  position: absolute;
+  width: 15%;
+  top: 20px;
+  left: 250px;
+  display: none;
+}
+.banner-mid {
+  display: flex;
+}
+.banner-mid #banner-mid-1 img {
+  width: 97%;
+}
+.banner-mid #banner-mid-1 p {
+  font-weight: bold;
+}
+.banner-mid #banner-mid-2 img {
+  width: 97%;
+}
+.banner-mid #banner-mid-2 p {
+  font-weight: bold;
+}
+.banner-mid .banner-ruler {
+  position: absolute;
+  top: 1300px;
+  left: 65px;
+}
+.banner-mid .banner-ruler1 {
+  position: absolute;
+  top: 1300px;
+  left: 850px;
+}
+.Best-Selling #Best-selling-title p {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.Best-Selling .list-items-seconds {
+  display: flex;
+  margin-bottom: 20px;
+}
+.Best-Selling .list-items-seconds img {
+  width: 100%;
+  padding: 10px;
+}
+.Best-Selling #add-card-5 {
+  position: absolute;
+  width: 70%;
+  top: 250px;
+  left: 30px;
+  transition: all 3s;
+  display: none;
+}
+.Best-Selling .list-group-5 {
+  position: absolute;
+  width: 15%;
+  top: 20px;
+  left: 250px;
+  display: none;
+}
+.Best-Selling #add-card-6 {
+  position: absolute;
+  width: 70%;
+  top: 250px;
+  left: 30px;
+  transition: all 3s;
+  display: none;
+}
+.Best-Selling .list-group-6 {
+  position: absolute;
+  width: 15%;
+  top: 20px;
+  left: 250px;
+  display: none;
+}
+.Best-Selling #add-card-7 {
+  position: absolute;
+  width: 70%;
+  top: 250px;
+  left: 30px;
+  transition: all 3s;
+  display: none;
+}
+.Best-Selling .list-group-7 {
+  position: absolute;
+  width: 15%;
+  top: 20px;
+  left: 250px;
+  display: none;
+}
+.Best-Selling #add-card-8 {
+  position: absolute;
+  width: 70%;
+  top: 250px;
+  left: 30px;
+  transition: all 3s;
+  display: none;
+}
+.Best-Selling .list-group-8 {
+  position: absolute;
+  width: 15%;
+  top: 20px;
+  left: 250px;
+  display: none;
+}
+.Best-Selling #add-card-9 {
+  position: absolute;
+  width: 70%;
+  top: 250px;
+  left: 30px;
+  transition: all 3s;
+  display: none;
+}
+.Best-Selling .list-group-9 {
+  position: absolute;
+  width: 15%;
+  top: 20px;
+  left: 250px;
+  display: none;
+}
+.Best-Selling .list-items-third {
+  display: flex;
+}
+.Best-Selling .list-items-third img {
+  width: 100%;
+  padding: 10px;
+}
+.Best-Selling #add-card-10 {
+  position: absolute;
+  width: 70%;
+  top: 250px;
+  left: 30px;
+  transition: all 3s;
+  display: none;
+}
+.Best-Selling .list-group-10 {
+  position: absolute;
+  width: 15%;
+  top: 20px;
+  left: 250px;
+  display: none;
+}
+.Best-Selling #add-card-11 {
+  position: absolute;
+  width: 70%;
+  top: 250px;
+  left: 30px;
+  transition: all 3s;
+  display: none;
+}
+.Best-Selling .list-group-11 {
+  position: absolute;
+  width: 15%;
+  top: 20px;
+  left: 250px;
+  display: none;
+}
+.Best-Selling #add-card-12 {
+  position: absolute;
+  width: 70%;
+  top: 250px;
+  left: 30px;
+  transition: all 3s;
+  display: none;
+}
+.Best-Selling .list-group-12 {
+  position: absolute;
+  width: 15%;
+  top: 20px;
+  left: 250px;
+  display: none;
+}
+.Best-Selling #add-card-13 {
+  position: absolute;
+  width: 70%;
+  top: 250px;
+  left: 30px;
+  transition: all 3s;
+  display: none;
+}
+.Best-Selling .list-group-13 {
+  position: absolute;
+  width: 15%;
+  top: 20px;
+  left: 250px;
+  display: none;
+}
+.Best-Selling #add-card-14 {
+  position: absolute;
+  width: 70%;
+  top: 250px;
+  left: 30px;
+  transition: all 3s;
+  display: none;
+}
+.Best-Selling .list-group-14 {
+  position: absolute;
+  width: 15%;
+  top: 20px;
+  left: 250px;
+  display: none;
+}
+.banner-avatar {
+  text-align: center;
+  margin-top: 50px;
+}
+.banner-avatar img {
+  width: 100%;
+}
+.banner-avatar #text-one {
+  position: absolute;
+  top: 2700px;
+  left: 640px;
+  font-size: 30px;
+}
+.banner-avatar #text-two {
+  position: absolute;
+  top: 2900px;
+  left: 470px;
+  font-size: 12px;
+}
+.banner-avatar #text-three {
+  position: absolute;
+  top: 3000px;
+  left: 690px;
+  font-size: 11px;
+}
+.layout {
+  width: 560px;
+  padding: 15px 15px;
+}
+.layoutLast {
+  width: 385px;
+  padding: 15px 15px;
+}
+.layout-items {
+  position: relative;
+  width: 100%;
+  display: flex;
+  padding: 8px 15px;
+}
+.layout-items .layout-items-1 img {
+  width: 560px;
+  padding: 15px 15px;
+  height: 100%;
+}
+.layout-items .layout-items-2 {
+  display: flex;
+}
+.layout-items .layout-items-2 img:first-child {
+  width: 560px;
+  padding: 15px 15px;
+}
+.layout-items .layout-items-2 img:last-child {
+  width: 385px;
+  padding: 15px 15px;
+}
+.layout-items .layout-items-4 {
+  display: flex;
+}
+.layout-items .layout-items-4 img:first-child {
+  width: 385px;
+  padding: 15px 15px;
+}
+.layout-items .layout-items-4 img:last-child {
+  width: 560px;
+  padding: 15px 15px;
+}
+.layout-icons {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 100px;
+}
+.list-icons {
+  display: flex;
+  text-align: center;
+  margin-top: 100px;
+  display: inline-block;
+}
+.list-icons img {
+  padding: 40px 40px;
+}
+.container-instagram .title-instagram {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.container-instagram .image-instagram {
+  overflow: hidden;
+}
+.container-instagram .image-instagram img {
+  padding: 8px 8px;
+}
+.container-instagram .image-instagram img:hover {
+  transform: scale(1.5);
+}
+.container-last .title-last p:first-child {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.container-last .btn-submit {
+  margin-top: 20px;
+  height: 20px;
+  margin-bottom: 100px;
+}
+.container-last .btn-submit input {
+  width: 35%;
+  height: 35px;
+}
+.container-last .btn-submit button {
+  background-color: black;
+  width: 5%;
+  height: 35px;
+  border-radius: 5px;
+  color: #fff;
+}
+.container-last .btn-submit button:hover {
+  color: #fff;
+  background-color: #694624;
+}
+.container-last .btn-submit p {
+  font-size: 10px;
+  margin-top: 10px;
+}
+.background-footer {
+  background-color: #291d1d;
+  color: #fff;
+}
+.background-footer .container-footer-content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.background-footer .container-footer-content .content-footer-first {
+  margin-top: 50px;
+}
+.background-footer .container-footer-content .content-footer-first #ohey {
+  font-size: 40px;
+}
+.background-footer .content-footer-last {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
